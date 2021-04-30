@@ -1,0 +1,39 @@
+@media screen and (max-width:480px) {
+      nav{
+               display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                padding: 10px;
+      }
+
+      .search input{
+                   padding: 0 10px;
+                   font-size: 12px;
+                    height: 30px;
+                    width: 80vw;
+                    margin: 10px 0;
+      }
+      .cards-list{
+       flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+ 
+}
+
+
+@media screen and (max-width:768px){
+ .search input {
+  width: 40vw;
+ }
+ .cards-list {
+  overflow: scroll;
+ }
+}
+
+@media screen and (max-width:1024px){ 
+ .cards-list {
+  overflow: scroll;
+ }
+}

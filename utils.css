@@ -1,0 +1,43 @@
+.flex-all-center {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.card-item {
+ width: 200px;
+padding: 15px;
+text-align: center;
+transition: transform .2s;
+}
+
+.card-item img:hover {
+ transform: scale(1.1); 
+}
+
+.text-line{
+ padding:10px;
+}
+
+.text-line p b {
+ font-size:14px;
+}
+
+.text-line p {
+ font-size:13px;
+ margin: 3px 0;
+}
+
+.card-item img {
+  width:150px;
+  height: 100px;
+}
+
+.card-item .w-200{
+  height:250px;
+}
+
+.text-line .clr-grn{
+  color: green;
+  font-size:14px;
+}
